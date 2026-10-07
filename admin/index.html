@@ -7,13 +7,13 @@
 </head>
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script src="https://unpkg.com/decap-cms@^2.0.0/dist/decap-cms.js"></script>
 
   <!-- Include the script that allows Netlify CMS login -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   <!-- Register Color widget -->
-  <!-- https://github.com/ekoeryanto/netlify-cms-widgets/tree/master/widgets/color -->
+  <!-- https://github.com/ekoeryanto/decap-cms-widgets/tree/master/widgets/color -->
   <script src="../assets/js/react.min.js"></script>
   <script src="../assets/js/widgets/color/react-color.min.js"></script>
   <script src="../assets/js/widgets/color/color.min.js"></script>
@@ -269,7 +269,7 @@
   <!-- 1) Jekyll needs to update kramdown version up to 2.1.0, so we can use the :standlone feature with <figure></figure> -->
   <!-- See: https://github.com/gettalong/kramdown/issues/48#issuecomment-455851003 -->
   <!-- 2) However, it may not be possible, once Netlify CMS parses using Remark before parse using kramdown -->
-  <!-- See: https://github.com/netlify/netlify-cms/issues/1464#issuecomment-400470173 -->
+  <!-- See: https://github.com/netlify/decap-cms/issues/1464#issuecomment-400470173 -->
   <!-- Solution for now: -->
   <!-- Keep using <img width="X" height="Y"> with <em></em> for caption -->
   <script>
