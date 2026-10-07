@@ -1,15 +1,50 @@
 # Site Settings
-#=include site.yml
+name: The CT Files
+title: The CT Files | expoés at the finest
+description: The CT Files is an exposé website.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
+email: inferno@thectfiles.lol
+# See: https://disqus.com/
+disqus_username: disqus_username
+# Contact Form Setting
+# See: https://formspree.io/
+formspree_form_id: formspree_form_id
+
 
 # Social Media Settings
-# Remove the item if you don't need it
-#=include social.yml
+# Remove the item if you don't need 
+
 
 # Posts Settings
-#=include posts.yml
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
 
 # Advanced Settings
-#=include advanced.yml
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://thectfiles.lol" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
 
 # Build settings
 markdown: kramdown
@@ -61,8 +96,6 @@ exclude: [
   'src',
   'node_modules',
   'initpost.sh',
-  'Gemfile',
-  'Gemfile.lock',
   'gulpfile.js',
   'README.md'
 ]
