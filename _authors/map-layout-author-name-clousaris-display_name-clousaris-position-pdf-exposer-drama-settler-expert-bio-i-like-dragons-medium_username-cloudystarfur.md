@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/6e6dd6a8c0f9ef14c257604eb22fd691.jpg
+photo: /assets/img/uploads/screenshot-2026-10-07-193047.webp
 name: ClouSaris
 display_name: ClouSaris
 position: PDF Exposer/Drama Settler Expert
