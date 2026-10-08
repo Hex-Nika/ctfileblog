@@ -1,5 +1,5 @@
 ---
-date: 2026-10-07 19:36:00
+date: 2026-10-07 20:01:00
 layout: post
 title: 2nd most followed user muted for TOS violation?
 subtitle: Lolm8999 was muted for 7 days?!
