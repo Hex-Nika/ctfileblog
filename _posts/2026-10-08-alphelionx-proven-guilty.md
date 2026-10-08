@@ -6,7 +6,7 @@ subtitle: Bullies EVERYONE!
 description: Bullies EVERYONE!
 image: /assets/img/uploads/screenshot-2026-10-07-204516.png
 optimized_image: /assets/img/uploads/screenshot-2026-10-07-204516.png
-category: blog
+category: "{{slug}}"
 tags:
   - drama
   - expose
