@@ -2,7 +2,6 @@ import { createHmac, timingSafeEqual } from "node:crypto";
 
 const siteOrigin = "https://thectfiles.lol";
 const sessionCookieName = "ctfiles_cms_session";
-const repositoryPath = "/repos/Hex-Nika/ctfileblog";
 
 function getCookie(request, name) {
   const cookies = request.headers.cookie || "";
@@ -34,6 +33,12 @@ function getSessionUsername(request, secret) {
   }
 }
 
+function getProxiedPath(request, requestUrl) {
+  const path = request.query?.path ?? requestUrl.searchParams.get("path");
+  if (typeof path !== "string") return "";
+  return path.startsWith("/") ? path : `/${path}`;
+}
+
 export default async function handler(request, response) {
   const requestUrl = new URL(request.url, `https://${request.headers.host}`);
   if (requestUrl.origin !== siteOrigin) {
@@ -50,7 +55,9 @@ export default async function handler(request, response) {
     return response.status(403).send("Invalid request origin");
   }
 
-  const apiPath = requestUrl.pathname.slice("/api/github".length);
+  const apiPath = getProxiedPath(request, requestUrl);
+  if (!apiPath) return response.status(400).send("Missing GitHub API path");
+
   if (apiPath === "/user" && request.method === "GET") {
     response.setHeader("Cache-Control", "no-store");
     return response.status(200).json({ login: username, name: username });
@@ -86,7 +93,10 @@ export default async function handler(request, response) {
   }
 
   const upstreamUrl = new URL(`https://api.github.com${apiPath}`);
-  upstreamUrl.search = requestUrl.search;
+  const upstreamQuery = new URLSearchParams(requestUrl.searchParams);
+  upstreamQuery.delete("path");
+  upstreamUrl.search = upstreamQuery.toString();
+
   const headers = {
     Accept: request.headers.accept || "application/vnd.github+json",
     Authorization: `Bearer ${token}`,
