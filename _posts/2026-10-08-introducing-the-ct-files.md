@@ -1,5 +1,5 @@
 ---
-date: 2026-10-07 20:50:00
+date: 2026-10-08 10:14:00
 layout: post
 title: New Warning on AphelionX
 subtitle: New information on AphelionX is coming to light recently
