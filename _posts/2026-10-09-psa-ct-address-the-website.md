@@ -1,7 +1,7 @@
 ---
 date: 2026-10-09 18:00:00
 layout: post
-title: (PSA) CodeTorch's Address the Website
+title: "(PSA) CodeTorch's Address the Website "
 subtitle: ClouSaris is going to make a statement about CodeTorch's current state
   in the community
 description: Saving for later
