@@ -1,22 +1,14 @@
 ---
 date: 2026-10-07 20:39:00
 layout: post
-title: Introducing The CT Files!
-subtitle: Want to be updated on the latest events on CodeTorch? You came to the
-  right place!
-description: Welcome to CT Files!
+title: New Warning on AphelionX
+subtitle: New information on AphelionX is coming to light recently
+description: Warning on AphelionX
+image: /assets/img/uploads/screenshot-2026-10-07-204516.png
 category: tutorial
 tags:
   - welcome!
 author: inferno
-paginate: true
+paginate: false
 ---
-# Welcome to the CodeTorch Files!
-
-### We here at The CT Files will keep you up to date with the latest CodeTorch news, drama, and exposes! We will even talk about new & cool projects to check out! 
-
-### We have experienced writers here who are well-known and experienced in what they do, or both!
-
-## We hope you enjoy the website as more information comes out in the future!
-
-### Thanks for your time!
+> ###### "Well we got more, not everyone knows. But this dude names  All of his posts are just living proof he will bully anybody. (He got warnings but ignored them-) then got exposed by someone he was bullying named ethan"
