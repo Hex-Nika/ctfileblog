@@ -34,7 +34,7 @@ A theme for Jekyll inspired by Netflix panel for who loves movies and series and
 - [Paginated posts](docs/features.md#paginated-posts) *(optional)*
 - ["Before you go" modal](docs/features.md#before-you-go-modal) *(optional)*
 - [Post recommendation](docs/features.md#post-recommendation)
-- [Netlify CMS ready](docs/features.md#netlify-cms-ready)
+- [Decap CMS ready](docs/features.md#decap-cms-ready)
 - [Translations](docs/setup.md#translations) **new!**
 - [Math Expressions](docs/features.md#math-expressions) *(optional)* **new!**
 

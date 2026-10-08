@@ -1,40 +1,19 @@
-# Netlify CMS
+# Decap CMS on Vercel
 
-*Jekflix* is ready for Netlify CMS integration, which means you can create/edit posts, authors, categories, theme, etc... without touching a line of code!
+The CMS at `/admin` uses a Vercel-hosted username/password login. There is no signup flow: only accounts listed in the `CMS_USERS` environment variable can sign in. CMS changes are sent through a Vercel API proxy, which keeps the GitHub token on the server.
 
-However, you **can only use this if you're cloning the repo**. In the case you're using the `gem`, you'll need to setup Netlify CMS in your project by yourself.
+## Configure environment variables
 
-## Deploy with Netlify
+Set these variables in the Vercel project and redeploy:
 
-Use the Netlify [documentation](https://www.netlify.com/docs/continuous-deployment/) to set up *Continuous Deployment*.
+- `CMS_USERS`: JSON object of usernames and passwords, for example `{"editor":"use-a-long-unique-password"}`. Add more accounts as additional key/value pairs.
+- `CMS_SESSION_SECRET`: random secret of at least 32 characters used to sign login sessions.
+- `GITHUB_TOKEN`: fine-grained GitHub personal access token restricted to `Hex-Nika/ctfileblog`, with repository contents read/write, pull requests read/write, and metadata read permissions.
 
-When setting the **Build command**, change it to `gulp build`. If you deployed your site already and forgot to do that, follow the steps below:
+The GitHub token is only used by the server-side proxy. Do not add it to the CMS config or client-side code. Change a password by editing `CMS_USERS`; removing an account revokes its next login. Rotating `CMS_SESSION_SECRET` expires existing sessions.
 
-1. Go to the top menu and select **Deploys**
-1. In **Continuous Deployment > Build Settings**, click on **Edit settings**
-1. Change the **Build command** to `gulp build`
+## Use the CMS
 
-That's it. Every time you push a new commit, your project will build and deploy.
+Open `https://thectfiles.lol/admin/` and sign in with a configured username and password. Published changes are committed to the `master` branch and trigger a Vercel deployment. Drafts remain in the repository's editorial workflow until published.
 
-## Integrate with Netlify CMS
-
-Once you have deployed your website with Netlify successfully, follow the [Enable Identity and Git Gateway](https://www.netlifycms.org/docs/add-to-your-site/#enable-identity-and-git-gateway) walkthrough to be able to access your website CMS.
-
-Some important things to keep in mind:
-
-1. Access your CMS locally through `localhost:3000/admin` or `yourdomain.com/admin`
-1. The available CMS data is **always** pulled in from your repo. Which means, even if you are working locally, the CMS won't get local changes till you push them into GitHub.
-1. Every change *published* through CMS will be automatically deployed to production, so be careful with what you publish.
-1. The CMS allows you to save data as *draft* though, so it won't go to production till you publish the changes 🙂
-
-See some CMS screenshots:
-
-![Netlify CMS post list screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-1_a0qezm.jpg)
-
-![Netlify CMS post edition screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-2_aupygb.jpg)
-
-![Netlify CMS workflow screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-3_bj5sks.jpg)
-
-![Netlify CMS site settings screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-4_ycfqdp.jpg)
-
-![Netlify CMS theme settings screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-5_k6dan9.jpg)
+The login endpoint is configured for `thectfiles.lol`; use the deployed site for CMS access.

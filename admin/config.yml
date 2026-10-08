@@ -1,6 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Hex-Nika/ctfileblog
   branch: master
+  api_root: https://thectfiles.lol/api/github
+  base_url: https://thectfiles.lol
+  auth_endpoint: api/auth
+  use_graphql: false
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 collections:

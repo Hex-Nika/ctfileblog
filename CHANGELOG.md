@@ -85,7 +85,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added [post recommendation](docs/features.md#post-recommendation)
 - Added meta keywords to improve SEO
 - Added JSON-LD to improve SEO
-- Set up [Netlify CMS](docs/features.md#netlify-cms-ready)
+- Set up [Netlify CMS](docs/features.md#decap-cms-ready)
 
 ### Changed
 

@@ -22,7 +22,7 @@ _Jekflix_ comes with features to help you create/edit/share content and provide 
 - [Paginated posts](features.md#paginated-posts) *(optional)*
 - ["Before you go" modal](features.md#before-you-go-modal) *(optional)*
 - [Post recommendation](features.md#post-recommendation)
-- [Netlify CMS ready](features.md#netlify-cms-ready)
+- [Decap CMS ready](features.md#decap-cms-ready)
 - [Translations](setup.md#translations)
 - [Math Expressions](features.md#math-expressions) *(optional)*
 
@@ -197,22 +197,22 @@ You only need 2 steps:
 
 For example, `$\sum_{i=1}{10} = 55$` will be rendered as <img src="https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,q_78,w_270/v1585835744/Screen_Shot_2020-04-02_at_10.55.24_uafb07.jpg" width="135">.
 
-## Netlify CMS ready
+## Decap CMS ready
 
-The newest addition to the *Jekflix Template 2.0.0* is the Netlify CMS integration.
+The newest addition to the *Jekflix Template 2.0.0* is the CMS integration, now powered by Decap CMS.
 
-With Netlify CMS you will be able to create/edit posts using an editor, access a workflow panel and change every aspect of your blog with some clicks.
+With Decap CMS you can create and edit posts, access an editorial workflow, and change your blog settings.
 
-To use the Netlify CMS, you need to go through some steps first. See the [docs](netlify-cms.md#netlify-cms) for more info.
+To use the CMS on Vercel, configure its environment variables as described in the [docs](netlify-cms.md#decap-cms-on-vercel).
 
 Here are some screenshots:
 
-![Netlify CMS post list screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-1_a0qezm.jpg)
+![Decap CMS post list screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-1_a0qezm.jpg)
 
-![Netlify CMS post edition screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-2_aupygb.jpg)
+![Decap CMS post edition screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-2_aupygb.jpg)
 
-![Netlify CMS workflow screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-3_bj5sks.jpg)
+![Decap CMS workflow screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-3_bj5sks.jpg)
 
-![Netlify CMS site settings screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-4_ycfqdp.jpg)
+![Decap CMS site settings screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-4_ycfqdp.jpg)
 
-![Netlify CMS theme settings screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-5_k6dan9.jpg)
+![Decap CMS theme settings screenshot](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566479287/netlify-page-5_k6dan9.jpg)
