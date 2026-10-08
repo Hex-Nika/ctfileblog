@@ -1,5 +1,5 @@
 ---
 layout: category
-title: DramaAlert
+title: Drama
 slug: "{{slug}}"
 ---
