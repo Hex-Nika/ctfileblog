@@ -19,11 +19,9 @@ On September 24th, 2026, ClouSaris announced on the website that he would be add
 
 > Update on the CTWC: "Until further notice, I'm pausing the CodeTorch World Championship, including next year's. This is because school has killed off my availability and this drama that's going on."
 
-Plus, around 4-5 Days before ClouSaris announced his Address the website project, a user by the name of AtCG made a post on October 6th also regarding the DDoS Attack on CodeTorch. This post, just shortly after posting it blew up with 20+ Reposts from users.
+Plus, around 4-5 Days before ClouSaris announced his Address the website project, a user by the name of AtCG made a post on October 6th also regarding the DDoS Attack on CodeTorch. This post, just shortly after posting, blew up with 20+ Reposts from users.
 
-> Thank you guys for DDoSing CodeTorch over quitting ^_^ this definitely won't just make you guys look worse and has a higher chance of lol getting terminated from it!
-> Seriously, what were you guys thinking, y'all are literally so brainwashed that you temporarily made a website unusable because lolm got called out for guilt-tripping his fans into going after anyone who questions or calls out lolm for doing something wrong. Like, what is wrong with you guys
-
-
+> "Thank you guys for DDoSing CodeTorch over quitting ^_^ this definitely won't just make you guys look worse and has a higher chance of lol getting terminated from it!
+> Seriously, what were you guys thinking, y'all are literally so brainwashed that you temporarily made a website unusable because lolm got called out for guilt-tripping his fans into going after anyone who questions or calls out lolm for doing something wrong. Like, what is wrong with you guys."
 
 Now we're not completely sure what exact time is planned for this Project to be announced. But this project is set to be the biggest PSA announcement project since ClouSaris exposed Oringe back in February 2026.
