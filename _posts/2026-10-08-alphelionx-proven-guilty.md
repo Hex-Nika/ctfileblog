@@ -2,8 +2,8 @@
 date: 2026-10-08 10:45:00
 layout: post
 title: AlphelionX Proven guilty?
-subtitle: Bullies the disabled!
-description: Bullies the disabled!
+subtitle: Bullies EVERYONE!
+description: Bullies EVERYONE!
 image: /assets/img/uploads/screenshot-2026-10-07-204516.png
 optimized_image: /assets/img/uploads/screenshot-2026-10-07-204516.png
 category: "{{slug}}"
