@@ -1,6 +1,6 @@
 # Site Settings
 name: The CT Files
-title: The CT Files | expoés at the finest
+title: The CT Files | exposés at the finest
 description: The CT Files is an exposé website.
 tags:
   - blog
@@ -20,10 +20,10 @@ menu:
     url: /feed.xml
 email: inferno@thectfiles.lol
 # See: https://disqus.com/
-disqus_username: disqus_username
+disqus_username: disqus_qOgm6F8isx
 # Contact Form Setting
 # See: https://formspree.io/
-formspree_form_id: formspree_form_id
+formspree_form_id:
 
 
 # Social Media Settings
