@@ -1,5 +1,5 @@
 ---
-date: 2026-10-09 18:00:00
+date: 2026-10-07 20:40:00
 layout: post
 title: "(PSA) CodeTorch's Address the Website "
 subtitle: ClouSaris is going to make a statement about CodeTorch's current state
