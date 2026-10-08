@@ -11,7 +11,7 @@ category: "{{slug}}"
 tags:
   - Addressthewebiste
   - Addressthenation
-author: inferno
+author: ClouSaris
 paginate: false
 ---
 The 22nd most-followed user on CodeTorch, ClouSaris, is set to announce their version of "Address the Nation" on CodeTorch on October 10th, 2026
