@@ -3,20 +3,12 @@ name: The CT Files
 title: The CT Files | exposés at the finest
 description: The CT Files is an exposé website.
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - codetorch
 show_hero: true
 menu:
   - title: Home
     url: /
   - title: Contact
     url: /contact
-  - title: About
-    url: /About
-  - title: Feed
-    url: /Feed
 email: inferno@thectfiles.lol
-disqus_username: disqus_qOgm6F8isx
+disqus_username: thectfiles
