@@ -1,0 +1,20 @@
+---
+date: 2026-10-09 19:46:00
+layout: post
+title: Lol finally banned?
+subtitle: Second most popular user on CodeTorch banned
+description: Lol (lolm8999) banned from Codetorch
+image: /assets/img/uploads/pic.png
+category: "{{slug}}"
+tags:
+  - banned
+  - lol
+  - drama
+author: FenicF0x
+paginate: false
+---
+Today, at about 6:30 Pm, the user, Lol, was banned from Codetorch indefinitely, by the mod 000. The reasons include (supposedly) DDoSing the site, breaking rule 3.3 on Codetorch, and dating a minor. That's right, lol was dating a minor. 
+
+![]()
+
+ Currently, lol's account shows hidden on the leaderboard, and apparently, is active on Zippr and has left Scratch
