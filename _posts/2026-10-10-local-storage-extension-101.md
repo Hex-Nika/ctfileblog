@@ -10,7 +10,7 @@ tags:
   - localstorage
   - extensions
 author: FenicF0x
-paginate: true
+paginate: false
 ---
 Ever want to save variables on someone's browser automatically? This tutorial is for you! \
 \
@@ -22,8 +22,7 @@ First some terms:\
 
 **Score:** The variable in question, change it to change the variable being stored.\
 \
-Now that you know some basic vocabulary, lets get into the tutorial!\
-\
+Now that you know some basic vocabulary, lets get into the tutorial!
 
 #### Step 1: Create A New Project
 
