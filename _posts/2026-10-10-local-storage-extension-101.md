@@ -55,6 +55,8 @@ Create this block string:\
 
 If done correctly, when you click the space bar, your second variable should show your first variable!
 
+![](/assets/img/uploads/screenshot-at-2026-10-10-01-07-37.png "Your finished code should look like this.")
+
 #### Applications
 
 There are many things you can use this for such as:
