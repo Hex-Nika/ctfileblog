@@ -1,7 +1,7 @@
 formspree_form_id: formspree_form_id
-name: TorchNews
-title: TorchNews | News on CodeTorch, Project Tutorials, and More!
-description: Welcome to TorchNews! We go over everything going on CodeTorch,
+name: FireStack
+title: FireStack | News on CodeTorch, Project Tutorials, and More!
+description: Welcome to FireStack! We go over everything going on CodeTorch,
   Including tutorials and much more!
 tags:
   - codetorch
@@ -12,4 +12,4 @@ menu:
   - title: Contact
     url: /contact
 email: inferno@thectfiles.lol
-disqus_username: torchnews
+disqus_username: firestack
