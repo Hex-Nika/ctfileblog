@@ -2,8 +2,8 @@ backend:
   name: github
   repo: Hex-Nika/ctfileblog
   branch: master
-  api_root: https://thectfiles.lol/api/github
-  base_url: https://thectfiles.lol
+  api_root: https://firestack.lol/api/github
+  base_url: https://firestack.lol
   auth_endpoint: api/auth
   use_graphql: false
 publish_mode: editorial_workflow
