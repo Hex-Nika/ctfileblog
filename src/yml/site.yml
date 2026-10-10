@@ -1,7 +1,8 @@
 formspree_form_id: formspree_form_id
-name: The CT Files
-title: The CT Files | exposés at the finest
-description: The CT Files is an exposé website.
+name: TorchNews
+title: TorchNews | News on CodeTorch, Project Tutorials, and More!
+description: Welcome to TorchNews! We go over everything going on CodeTorch,
+  Including tutorials and much more!
 tags:
   - codetorch
 show_hero: true
@@ -11,4 +12,4 @@ menu:
   - title: Contact
     url: /contact
 email: inferno@thectfiles.lol
-disqus_username: thectfiles
+disqus_username: torchnews
