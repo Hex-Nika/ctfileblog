@@ -1,6 +1,6 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
 
-const siteOrigin = "https://thectfiles.lol";
+const siteOrigin = "https://firestack.lol";
 const sessionCookieName = "ctfiles_cms_session";
 
 function getCookie(request, name) {
