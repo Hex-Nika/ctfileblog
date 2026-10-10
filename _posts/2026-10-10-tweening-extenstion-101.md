@@ -7,6 +7,8 @@ description: Tweening 101
 image: /assets/img/uploads/tween.svg
 optimized_image: /assets/img/uploads/tween.svg
 category: code
+tags:
+  - tweening
 author: ClouSaris
 paginate: false
 ---
