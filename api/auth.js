@@ -1,6 +1,6 @@
 import { createHash, createHmac, timingSafeEqual } from "node:crypto";
 
-const siteOrigin = "https://thectfiles.lol";
+const siteOrigin = "https://firestack.lol";
 const sessionCookieName = "ctfiles_cms_session";
 const sessionDurationSeconds = 8 * 60 * 60;
 
