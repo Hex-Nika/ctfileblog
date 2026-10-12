@@ -8,6 +8,4 @@ category: tutorial
 author: FenicF0x
 paginate: false
 ---
-Welcome to another Codetorch extensions tutorial! Today, we will be learning how to properly use the advancements extension!\
-\
-to be finished
+Welcome to another Codetorch extensions tutorial! Today, we will be learning how to properly use the advancements extension!
